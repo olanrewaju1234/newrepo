@@ -1,4 +1,7 @@
-
+body {
+    margin: 0;
+    padding: 0;
+}
 .form {
     margin-right: 20%;
 }
@@ -32,8 +35,9 @@ header h1 {
 footer{
     background-color: #666;
 }
-div .col-6.col-md-3 {
+div .col-6.col-md-3 h1 {
     color: white;
+    font-size: 20px;
 }
 div .col-6.col-md-3 ul {
     list-style: none ;
@@ -55,8 +59,14 @@ div.col.margin {
 div.row.newrow {
     margin: 0;
 }
+div.row.anotherrow {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 @media screen and (max-width:680px) {
  #col {
     display: 100%;
 }
+
 }
