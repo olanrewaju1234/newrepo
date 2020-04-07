@@ -14,6 +14,7 @@ body {
 nav {
     margin: 0;
     width: 100%;
+    overflow: hidden;
 } 
 nav ul {
     background-color: black;
