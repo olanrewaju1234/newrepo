@@ -68,5 +68,7 @@ div.row.anotherrow {
  #col {
     display: 100%;
 }
-
+div.col iframe {
+    overflow: hidden;
+}
 }
